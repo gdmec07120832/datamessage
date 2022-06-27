@@ -1,0 +1,62 @@
+{
+  "name": "bi-datamessage-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "node bootstarp.js && vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "sit": "vue-cli-service build --mode sit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "dingtalk-jsapi": "^2.13.91",
+    "echarts": "^4.9.0",
+    "echarts-liquidfill": "^2.0.6",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "svg-sprite-loader": "^6.0.11",
+    "swiper": "^6.2.0",
+    "vant": "^2.12.39",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-echarts": "^5.0.0-beta.0",
+    "vue-router": "^3.5.3",
+    "vue-svg-loader": "^0.16.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "sass": "^1.49.0",
+    "sass-loader": "^10.0.1",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "webpack": "^4.44.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

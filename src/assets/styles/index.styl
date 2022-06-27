@@ -1,0 +1,53 @@
+.text-ellipsis {
+  white-space nowrap
+  overflow hidden
+  text-overflow ellipsis
+}
+
+.flex {
+  display flex
+  align-items center
+}
+
+.flex-between {
+  @extend .flex
+  justify-content space-between
+}
+
+.flex-around {
+  @extend .flex
+  justify-content space-around
+}
+
+.flex-center {
+  @extend .flex
+  justify-content center
+}
+
+.flex-start {
+  @extend .flex
+  justify-content flex-start
+}
+
+.flex-end {
+  @extend .flex
+  justify-content flex-end
+}
+
+*, *:before, *:after {
+  box-sizing border-box
+}
+
+img {
+  width 100%
+  vertical-align middle
+}
+
+body, html {
+  margin 0
+  padding 0
+  height 100%
+  font-family: 'PingFang SC', Helvetica, Arial, sans-serif, 'Droid Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
